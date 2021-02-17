@@ -1,7 +1,11 @@
 @extends ('layout.app')
 
-<h1>Lista dei post</h1>
+<h1>Blog</h1>
 <?php foreach ($post as $value): ?>
-<h1>Titolo del post: <?php echo $value->title; ?></h1>
-<p>Testo del Post: <?php echo $value->body ?></p>
+  <div class="container">
+    <h3>#: <?php echo $value->ID ?></h3>
+    <h3>Titolo: <?php echo $value->title; ?></h3>
+    <p>Testo: <?php echo $value->body ?></p>
+
+  </div>
 <?php endforeach; ?>
