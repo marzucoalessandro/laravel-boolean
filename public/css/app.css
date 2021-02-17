@@ -1,18 +1,22 @@
-nav{
+nav {
   display: flex;
   justify-content: flex-end;
   border-bottom: 2px solid black;
-    a{
-      color: red;
-      text-decoration: none;
-      margin-right: 20px;
-    }
 }
-h1{
+
+nav a {
+  color: red;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+h1 {
   text-align: center;
 }
-.container{
+
+.container {
   background-color: lightblue;
   border: 1px solid black;
   margin: 5px;
 }
+

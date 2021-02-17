@@ -6,11 +6,13 @@
 
         <title>Laravel-boolean</title>
 
-
+        <link rel="stylesheet" href="css/app.css">
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
     </head>
     <body>
+    
 
+      @yield('content1')
     </body>
 </html>
