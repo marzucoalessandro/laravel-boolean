@@ -1,5 +1,4 @@
 @extends ('layout.app')
-@include ('layout.navbar')
 @section('content1')
 
 <h1>Blog</h1>

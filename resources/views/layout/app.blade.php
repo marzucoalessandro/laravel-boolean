@@ -11,7 +11,7 @@
 
     </head>
     <body>
-    
+      @include('layout.navbar')
 
       @yield('content1')
     </body>
